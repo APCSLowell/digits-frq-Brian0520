@@ -11,8 +11,8 @@ public class Digits
 	if(num == 0)
 		digitList.add(0);
 	while(num > 0){
-		digitList.add(d1%10);
-		d1 = d1/10;
+		digitList.add(num%10);
+		num = num/10;
 	}
 	}
 
