@@ -7,8 +7,9 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-	Digits d1 = new Digits(num);
-	ArrayList <Integer> digistList = new ArrayList <>();
+	ArrayList <Integer> digitList = new ArrayList <>();
+	if(num == 0)
+		digitList.add(0);
 	while(num > 0){
 		digitList.add(d1%10);
 		d1 = d1/10;
