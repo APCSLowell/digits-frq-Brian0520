@@ -14,6 +14,7 @@ public class Digits
 		digitList.add(d1%10);
 		d1 = d1/10;
 	}
+	}
 
 	public boolean isStrictlyIncreasing()
 	{ /* to be implemented in part (b) */
