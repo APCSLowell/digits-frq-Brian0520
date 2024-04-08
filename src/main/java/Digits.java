@@ -7,7 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-	ArrayList <Integer> digitList = new ArrayList <>();
+	digitList = new ArrayList <>();
 	if(num == 0)
 		digitList.add(0);
 	while(num > 0){
