@@ -9,13 +9,12 @@ public class Digits
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
 	digitList = new ArrayList <Integer>();
-	if(num == 0){
-		digitList.add(0);
-	}else{
-		while(num > 0){
-			digitList.add(num%10);
-			num = num/10;
-	}
+	if(num == 0)
+		digitList.add(0);	
+	int n = num;
+	while(n > 0){
+		digitList.add(0,n%10);
+		n = n/10;
 	}
 	}
 	
