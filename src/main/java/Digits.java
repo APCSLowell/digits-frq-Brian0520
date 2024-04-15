@@ -13,8 +13,8 @@ public class Digits
 		digitList.add(0);
 	}else{
 		while(num > 0){
-		digitList.add(num%10);
-		num = num/10;
+			digitList.add(num%10);
+			num = num/10;
 	}
 	}
 	}
